@@ -24,9 +24,12 @@ Require these inputs:
 - cognitive_complexity_threshold (default: `15`)
 
 ## Workflow
-1. **Static Smell Audit**
+1. **Pre-Task Research & Self-Improvement**
+   - Wajib melakukan riset mandiri secara real-time di internet, Google, atau dokumentasi resmi GitHub sebelum memproses logika atau menyentuh kode.
+   - Jika mengadopsi library atau solusi pihak ketiga, pastikan repositori memiliki lisensi open-source valid, popularitas tinggi (stars/forks), serta kontribusi aktif.
+2. **Static Smell Audit**
    - Identify anti-patterns, deep nested conditions, and code fragmentation.
-2. **Refactoring Patch Generation**
+3. **Refactoring Patch Generation**
    - Restructure code into clean, modular sections without modifying underlying business outcomes.
 
 ## Output Contract

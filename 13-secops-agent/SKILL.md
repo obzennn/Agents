@@ -28,9 +28,12 @@ Require these inputs:
 - environment_configuration
 
 ## Workflow
-1. **Dynamic OWASP Research**
+1. **Pre-Task Research & Self-Improvement**
+   - Wajib melakukan riset mandiri secara real-time di internet, Google, atau dokumentasi resmi GitHub sebelum memproses logika atau menyentuh kode.
+   - Jika mengadopsi library atau solusi pihak ketiga, pastikan repositori memiliki lisensi open-source valid, popularitas tinggi (stars/forks), serta kontribusi aktif.
+2. **Dynamic OWASP Research**
    - Perform real-time searches to fetch current documentation on the latest OWASP Top 10 vulnerability parameters.
-2. **Security Audit Execution**
+3. **Security Audit Execution**
    - Audit target files against the current OWASP matrix. Reject code with cross-site scripting (XSS), injection vectors, or broken authorization logic.
 
 ## Stop Conditions

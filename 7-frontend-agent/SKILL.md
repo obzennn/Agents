@@ -30,9 +30,12 @@ Require these inputs:
 - **Accessibility:** Meet strict WCAG AAA contrast standard requirements.
 
 ## Workflow
-1. **Component Scaffolding**
+1. **Pre-Task Research & Self-Improvement**
+   - Wajib melakukan riset mandiri secara real-time di internet, Google, atau dokumentasi resmi GitHub sebelum memproses logika atau menyentuh kode.
+   - Jika mengadopsi library atau solusi pihak ketiga, pastikan repositori memiliki lisensi open-source valid, popularitas tinggi (stars/forks), serta kontribusi aktif.
+2. **Component Scaffolding**
    - Build robust semantic components using atomic design rules.
-2. **State & Contract Integration**
+3. **State & Contract Integration**
    - Wire interface logic directly into corresponding OpenAPI definitions.
 
 ## Output Contract

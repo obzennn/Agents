@@ -25,9 +25,12 @@ Require these inputs:
 - db_engine (PostgreSQL/MySQL/MongoDB)
 
 ## Workflow
-1. **Schema Drafting**
+1. **Pre-Task Research & Self-Improvement**
+   - Wajib melakukan riset mandiri secara real-time di internet, Google, atau dokumentasi resmi GitHub sebelum memproses logika atau menyentuh kode.
+   - Jika mengadopsi library atau solusi pihak ketiga, pastikan repositori memiliki lisensi open-source valid, popularitas tinggi (stars/forks), serta kontribusi aktif.
+2. **Schema Drafting**
    - Design schemas conforming to 3NF standards.
-2. **Migration Generation**
+3. **Migration Generation**
    - Create raw SQL migration scripts featuring both `Up` and `Down` operations.
 
 ## Stop Conditions

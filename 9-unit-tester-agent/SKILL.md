@@ -24,9 +24,12 @@ Require these inputs:
 - testing_framework (Jest/PyTest/GoTest)
 
 ## Workflow
-1. **Test Suite Construction**
+1. **Pre-Task Research & Self-Improvement**
+   - Wajib melakukan riset mandiri secara real-time di internet, Google, atau dokumentasi resmi GitHub sebelum memproses logika atau menyentuh kode.
+   - Jika mengadopsi library atau solusi pihak ketiga, pastikan repositori memiliki lisensi open-source valid, popularitas tinggi (stars/forks), serta kontribusi aktif.
+2. **Test Suite Construction**
    - Write comprehensive unit tests and integration mocks.
-2. **Coverage Execution**
+3. **Coverage Execution**
    - Run tests and evaluate metrics. Iterate until code coverage > 80%.
 
 ## Output Contract

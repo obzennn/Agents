@@ -25,9 +25,12 @@ Require these inputs:
 - critical_user_journeys
 
 ## Workflow
-1. **Automation Scripting**
+1. **Pre-Task Research & Self-Improvement**
+   - Wajib melakukan riset mandiri secara real-time di internet, Google, atau dokumentasi resmi GitHub sebelum memproses logika atau menyentuh kode.
+   - Jika mengadopsi library atau solusi pihak ketiga, pastikan repositori memiliki lisensi open-source valid, popularitas tinggi (stars/forks), serta kontribusi aktif.
+2. **Automation Scripting**
    - Build explicit, timing-resilient browser routines matching acceptance steps.
-2. **Execution & Evidence Capturing**
+3. **Execution & Evidence Capturing**
    - Run headless browser sweeps, log failures, and capture terminal runtime exceptions.
 
 ## Output Contract

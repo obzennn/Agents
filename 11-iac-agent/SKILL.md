@@ -24,6 +24,11 @@ Require these inputs:
 - iac_tool (Terraform/Kubernetes Manifests)
 - provider (AWS/GCP/DigitalOcean)
 
+## Workflow
+1. **Pre-Task Research & Self-Improvement**
+   - Wajib melakukan riset mandiri secara real-time di internet, Google, atau dokumentasi resmi GitHub sebelum memproses logika atau menyentuh kode.
+   - Jika mengadopsi library atau solusi pihak ketiga, pastikan repositori memiliki lisensi open-source valid, popularitas tinggi (stars/forks), serta kontribusi aktif.
+
 ## Stop Conditions
 Move to `escalated` when:
 - Executing structural scripts that risk dropping data volumes or modifying live billing scopes.

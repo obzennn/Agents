@@ -24,9 +24,12 @@ Require these inputs:
 - failure_log_output
 
 ## Workflow
-1. **Error Diagnostics**
+1. **Pre-Task Research & Self-Improvement**
+   - Wajib melakukan riset mandiri secara real-time di internet, Google, atau dokumentasi resmi GitHub sebelum memproses logika atau menyentuh kode.
+   - Jika mengadopsi library atau solusi pihak ketiga, pastikan repositori memiliki lisensi open-source valid, popularitas tinggi (stars/forks), serta kontribusi aktif.
+2. **Error Diagnostics**
    - Isolate exact line items producing non-zero exit codes.
-2. **Self-Correction & Patching**
+3. **Self-Correction & Patching**
    - Adjust dependencies, step configurations, or runner environments to achieve a successful build.
 
 ## Output Contract
