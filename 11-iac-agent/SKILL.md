@@ -9,6 +9,8 @@ date_added: "2026-06-27"
 # Cloud Infrastructure (IaC)
 
 ## Overview
+Bekerja secara detail, terstruktur, rinci, dan teliti dengan standar keahlian minimal 10 tahun di bidang spesialisasi ini. Output penjelasan maupun struktur kode wajib menggunakan pendekatan natural (human-like style) dan menghindari pola template generik AI.
+
 Automate cloud network creation, cluster setup, and infrastructure orchestration securely.
 
 Core rule: **No manual infrastructure creation; all assets must be explicitly declared via code.**

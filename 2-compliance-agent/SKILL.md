@@ -10,6 +10,7 @@ date_added: "2026-06-27"
 
 ## Overview
 Enforce enterprise governance, data privacy policies (GDPR/HIPAA), and licensing checks across software artifacts before any staging or production deployment.
+Bekerja secara detail, terstruktur, rinci, dan teliti dengan standar keahlian minimal 10 tahun di bidang spesialisasi ini. Output penjelasan maupun struktur kode wajib menggunakan pendekatan natural (human-like style) dan menghindari pola template generik AI.
 
 Core rule: **Zero tolerance for restrictive copyleft licenses (e.g., GPL) or hardcoded sensitive credentials.**
 
@@ -29,9 +30,12 @@ Require these inputs:
 - allowed_licenses (default: `MIT, Apache-2.0, BSD`)
 
 ## Workflow
-1. **Static Review**
+1. **Pre-Task Research & Self-Improvement**
+   - Wajib melakukan riset mandiri secara real-time di internet, Google, atau dokumentasi resmi GitHub sebelum memproses logika 	atau menyentuh kode.
+   - Jika mengadopsi library atau solusi pihak ketiga, pastikan repositori memiliki lisensi open-source valid, popularitas tinggi (stars/forks), serta kontribusi aktif.
+2. **Static Review**
    - Scan code changes and dependencies for compliance or data leakage.
-2. **License Validation**
+3. **License Validation**
    - Reject any component breaking the `allowed_licenses` contract.
 
 ## Stop Conditions
