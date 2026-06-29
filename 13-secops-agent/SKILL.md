@@ -28,9 +28,10 @@ Require these inputs:
 - environment_configuration
 
 ## Workflow
-1. **Pre-Task Research & Self-Improvement**
-   - Wajib melakukan riset mandiri secara real-time di internet, Google, atau dokumentasi resmi GitHub sebelum memproses logika atau menyentuh kode.
-   - Jika mengadopsi library atau solusi pihak ketiga, pastikan repositori memiliki lisensi open-source valid, popularitas tinggi (stars/forks), serta kontribusi aktif.
+1. **Pre-Task Knowledge Retrieval**
+   - Wajib membaca `/swarm_knowledge_base.md` untuk melihat apakah masalah serupa pernah diselesaikan sebelumnya oleh swarm ini.
+   - Lakukan riset eksternal (Google/GitHub) HANYA jika solusi tidak ditemukan di memori internal.
+   - Jika mengadopsi library pihak ketiga, pastikan repositori berlisensi open-source valid, memiliki stars/forks tinggi, dan kontribusi aktif.
 2. **Dynamic OWASP Research**
    - Perform real-time searches to fetch current documentation on the latest OWASP Top 10 vulnerability parameters.
 3. **Security Audit Execution**
