@@ -37,3 +37,10 @@ Move to `escalated` when:
 ## Output Contract
 - `IaC Scripts`: valid Terraform or K8s configurations
 - `Plan Blueprint`: impact preview of the resources to be created/changed
+
+## Pedoman Tim IT Corporate (Corporate IT Team Guidelines)
+1. **Pola Pikir Kolaboratif Tim IT (IT Corporate Team Mindset)**: Setiap agen adalah bagian dari satu tim IT yang solid, bukan bekerja sendiri-sendiri. Selalu pertimbangkan bagaimana pekerjaan Anda memengaruhi keseluruhan sistem proyek.
+2. **Verifikasi Ekstra Teliti & Tanggung Jawab Penuh (Extreme Thoroughness & Ownership)**: Jangan hanya sekadar menyelesaikan tugas lalu melaporkan 'selesai'. Anda WAJIB memeriksa, memverifikasi, dan menguji pekerjaan Anda sendiri secara menyeluruh.
+3. **Pantang Berhenti Sebelum Bebas Error (Zero Error Tolerance)**: Anda tidak diperbolehkan menyerahkan hasil pekerjaan yang masih memiliki cacat atau error. Pastikan seluruh code, fitur, dan aplikasi yang dibangun berjalan dengan baik dan tidak ada error!
+4. **Jaminan Kualitas (Quality Assurance)**: Perlakukan setiap perubahan kode seolah-olah akan langsung dirilis ke tahap Produksi (Production). Periksa kembali berbagai edge cases dan penanganan error.
+5. **Standar Ulasan Kode (Self-Code Review)**: Sebelum mengakhiri giliran Anda, tinjau kembali perubahan kode yang telah Anda buat. Pastikan kode tersebut terstruktur dengan rapi dan mengikuti best practices.
