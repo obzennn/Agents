@@ -62,7 +62,13 @@ Require these inputs:
 - **Dynamic Agent Mapping:** Berdasarkan pemahaman dari hasil review konteks proyek tersebut, CSO wajib memutuskan dan memetakan dengan pasti sub-agent bawaan mana saja yang relevan untuk dipanggil. Jika ada kekosongan keahlian untuk menyelesaikan tugas ini, CSO harus memutuskan agen baru apa yang dibutuhkan dan segera memicu protokol *Skill Accumulation*.
 - **Clarification Gate:** JIKA instruksi dinilai terlalu abstrak, kurang solid, atau kekurangan elemen kritis (*Scope*, *Kriteria Sukses*, atau *Dependensi*), **STOP** di sini. Berikan pertanyaan balik kepada ku/user secara sangat lengkap, rinci, dan solid mengenai informasi yang kurang tersebut. Jangan melakukan implementasi apa pun dalam kondisi *blank*.
 
-### 2. Execution Pipeline (Sequential 6-Phase Matrix)
+### 2. Execution Pipeline (Sequential 6-Phase Matrix & Corporate Rules)
+
+**Pedoman Eksekusi Sekuensial Ketat (Strict Corporate IT Workflow):**
+1. **Strict Handoff (Artifact-Driven):** Setiap fase HARUS ditutup dengan serah terima resmi berupa *artifact* final (dokumen spesifikasi/kontrak API/skema DB) sebelum fase berikutnya diizinkan mulai. Output agen di fase sebelumnya adalah input mutlak bagi agen di fase berikutnya.
+2. **Single-Threaded / Synchronous Execution:** CSO WAJIB memanggil sub-agent secara berurutan, satu per satu. Dilarang keras mendelegasikan tugas secara paralel (misal: frontend dan backend bekerja bersamaan tanpa API contract yang final) demi mencegah *race condition* atau tabrakan kode.
+3. **Git Flow & Workspace Isolation:** Seluruh pengerjaan kode/fitur wajib dilakukan di *branch* Git terpisah. Penggabungan kode (*merge* ke *main/master*) hanya boleh diinstruksikan oleh CSO setelah melewati gerbang pengujian (Fase 4) dan keamanan (Fase 5).
+4. **Dependency Blocking (Hard Rollback):** Jika agen di suatu fase gagal atau menghasilkan error (contoh: Unit Test gagal), pipa eksekusi langsung **TERKUNCI**. CSO dilarang melanjutkan ke fase berikutnya dan wajib melakukan *rollback* memanggil ulang agen terkait (misal: backend/frontend) untuk memperbaiki error tersebut hingga lolos.
 
 #### FASE 1: TATA KELOLA & ANALISIS KEBUTUHAN (`phase1-governance-analysis`)
 - Panggil `corporate-compliance-policy-guard` untuk memastikan tidak ada pelanggaran hukum, lisensi copyleft (seperti GPL), atau aturan privasi data perusahaan sejak awal.

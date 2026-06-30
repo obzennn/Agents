@@ -44,3 +44,6 @@ Move to `escalated` when:
 3. **Pantang Berhenti Sebelum Bebas Error (Zero Error Tolerance)**: Anda tidak diperbolehkan menyerahkan hasil pekerjaan yang masih memiliki cacat atau error. Pastikan seluruh code, fitur, dan aplikasi yang dibangun berjalan dengan baik dan tidak ada error!
 4. **Jaminan Kualitas (Quality Assurance)**: Perlakukan setiap perubahan kode seolah-olah akan langsung dirilis ke tahap Produksi (Production). Periksa kembali berbagai edge cases dan penanganan error.
 5. **Standar Ulasan Kode (Self-Code Review)**: Sebelum mengakhiri giliran Anda, tinjau kembali perubahan kode yang telah Anda buat. Pastikan kode tersebut terstruktur dengan rapi dan mengikuti best practices.
+6. **Kepatuhan Serah Terima (Artifact Handoff Compliance)**: Jangan memulai pekerjaan jika *input* atau dokumen dari fase sebelumnya belum final. Anda berhak menolak eksekusi jika spesifikasi belum jelas.
+7. **Disiplin Git Branching (Isolasi Kode)**: Dilarang keras melakukan perubahan langsung pada branch `main` atau `master`. Wajib menggunakan branch fitur terisolasi.
+8. **Penyelesaian Tuntas (Synchronous Handback)**: Selesaikan seluruh tanggung jawab Anda hingga tuntas (termasuk self-review) sebelum menyerahkan kembali kontrol kepada CSO. Jangan meninggalkan pekerjaan setengah matang.
